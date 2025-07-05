@@ -50,6 +50,7 @@ python main_analysis.py
 
 ## 📁 Project Structure
 
+**Note**: This repository contains the complete codebase and project structure. Large files are excluded for GitHub compatibility:
 ```
 ├── app/                    # Streamlit web application
 │   ├── streamlit_app.py    # Main web interface
@@ -69,6 +70,24 @@ python main_analysis.py
 ├── setup_project.py       # Environment setup
 └── README.md             # This file
 ```
+
+**Included**:
+- ✅ All source code and Jupyter notebooks
+- ✅ Project configuration and setup scripts
+- ✅ Streamlit web application
+- ✅ Model training and evaluation scripts
+- ✅ Complete documentation
+
+**Excluded (can be regenerated)**:
+- ❌ Large datasets (280MB+ CSV files)
+- ❌ Trained model files (400MB+ BERT models)
+- ❌ Processed data and cached results
+- ❌ Generated plots and evaluation outputs
+
+**To reproduce results**:
+1. Download datasets as described in setup instructions
+2. Run `python train_all_models.py` to train models
+3. Run evaluation scripts to generate results
 
 ## 🛠️ Installation & Setup
 
@@ -162,5 +181,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 [LinkedIn](contact-over-email) | [Email](mr.k.sh7i@gmail.com)
 
 ---
+
 
 *This project showcases advanced NLP techniques for real-world customer support automation, combining traditional machine learning with modern deep learning approaches for comprehensive text analysis and generation.*
