@@ -1,0 +1,7 @@
+{
+    "vocab_size": 20000,
+    "max_length": 150,
+    "embedding_dim": 128,
+    "accuracy": 0.835,
+    "total_params": 2706689
+}

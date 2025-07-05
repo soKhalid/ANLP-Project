@@ -1,0 +1,35 @@
+{
+    "timestamp": "20250618_032721",
+    "config": {
+        "sample_size": null,
+        "train_neural": true,
+        "train_lstm": false,
+        "train_bert": false,
+        "lstm_epochs": 5,
+        "bert_epochs": 3
+    },
+    "dataset_stats": {
+        "amazon_reviews": 10000,
+        "processed_samples": 10000
+    },
+    "model_results": {
+        "logistic_regression": {
+            "accuracy": 0.8665,
+            "precision": 0.9337016574585635,
+            "recall": 0.8877216021011162,
+            "f1_score": 0.9101312689330192
+        },
+        "naive_bayes": {
+            "accuracy": 0.862,
+            "precision": 0.9040829552819183,
+            "recall": 0.9159553512803676,
+            "f1_score": 0.9099804305283757
+        },
+        "svm": {
+            "accuracy": 0.8725,
+            "precision": 0.9243641231593038,
+            "recall": 0.9067629678266579,
+            "f1_score": 0.9154789526019225
+        }
+    }
+}

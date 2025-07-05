@@ -1,0 +1,36 @@
+{
+    "test_accuracy": 0.9135,
+    "test_loss": 0.3130629191212356,
+    "best_val_accuracy": 0.891875,
+    "config": {
+        "model_name": "distilbert-base-uncased",
+        "max_length": 128,
+        "batch_size": 16,
+        "learning_rate": 2e-05,
+        "epochs": 3,
+        "warmup_steps": 500,
+        "num_classes": 2
+    },
+    "history": {
+        "train_loss": [
+            0.42277837892994286,
+            0.23000404448946937,
+            0.12742402842268347
+        ],
+        "train_acc": [
+            0.79890625,
+            0.90890625,
+            0.96
+        ],
+        "val_loss": [
+            0.3317175130173564,
+            0.3161595421191305,
+            0.382101048277691
+        ],
+        "val_acc": [
+            0.86875,
+            0.890625,
+            0.891875
+        ]
+    }
+}

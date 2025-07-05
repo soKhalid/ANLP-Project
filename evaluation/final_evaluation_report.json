@@ -1,0 +1,45 @@
+{
+    "dataset": "Amazon Product Reviews (processed)",
+    "total_samples": 10000,
+    "train_samples": 8000,
+    "test_samples": 2000,
+    "best_model": "SVM",
+    "best_f1_score": 0.9024064171122995,
+    "all_results": {
+        "accuracy": {
+            "SVM": 0.854,
+            "Logistic Regression": 0.851,
+            "Naive Bayes": 0.812
+        },
+        "precision": {
+            "SVM": 0.9189925119128659,
+            "Logistic Regression": 0.9304286718200984,
+            "Naive Bayes": 0.8081676518001075
+        },
+        "recall": {
+            "SVM": 0.886408404464872,
+            "Logistic Regression": 0.8693368351936966,
+            "Naive Bayes": 0.9875246224556796
+        },
+        "f1_score": {
+            "SVM": 0.9024064171122995,
+            "Logistic Regression": 0.8988458927359131,
+            "Naive Bayes": 0.8888888888888888
+        },
+        "kappa": {
+            "SVM": 0.6130979590917343,
+            "Logistic Regression": 0.6173457922804008,
+            "Naive Bayes": 0.31598680727746375
+        },
+        "mcc": {
+            "SVM": 0.6146733748021432,
+            "Logistic Regression": 0.6224991538343475,
+            "Naive Bayes": 0.40068454348983334
+        },
+        "roc_auc": {
+            "SVM": NaN,
+            "Logistic Regression": 0.9109255565604134,
+            "Naive Bayes": 0.8928477530417596
+        }
+    }
+}

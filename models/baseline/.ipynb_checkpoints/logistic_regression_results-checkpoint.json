@@ -1,0 +1,24 @@
+{
+    "accuracy": 0.8675,
+    "precision": 0.9154557463672391,
+    "recall": 0.9100459619172685,
+    "f1_score": 0.9127428383272966,
+    "roc_auc": 0.9126902519164564,
+    "best_params": {
+        "classifier__C": 10.0,
+        "classifier__penalty": "l2",
+        "classifier__solver": "lbfgs",
+        "features__word_tfidf__max_features": 5000,
+        "features__word_tfidf__ngram_range": [
+            1,
+            2
+        ]
+    },
+    "cv_scores": [
+        0.8933747412008282,
+        0.8992167101827676,
+        0.9033264033264033,
+        0.8905109489051095,
+        0.8960835509138381
+    ]
+}

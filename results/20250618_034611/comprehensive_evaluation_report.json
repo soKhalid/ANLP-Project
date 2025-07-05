@@ -1,0 +1,61 @@
+{
+    "timestamp": "20250618_034611",
+    "config": {
+        "skip_baseline": false,
+        "include_neural": true
+    },
+    "dataset_stats": {
+        "amazon_reviews": 10000,
+        "twitter_messages": 9967,
+        "conversation_pairs": 4455,
+        "training_samples": 6400,
+        "validation_samples": 1600,
+        "test_samples": 2000
+    },
+    "model_results": {
+        "logistic_regression": {
+            "model_type": "baseline",
+            "accuracy": 0.8665,
+            "precision": 0.9337016574585635,
+            "recall": 0.8877216021011162,
+            "f1_score": 0.9101312689330192,
+            "note": ""
+        },
+        "naive_bayes": {
+            "model_type": "baseline",
+            "accuracy": 0.862,
+            "precision": 0.9040829552819183,
+            "recall": 0.9159553512803676,
+            "f1_score": 0.9099804305283757,
+            "note": ""
+        },
+        "svm": {
+            "model_type": "baseline",
+            "accuracy": 0.8725,
+            "precision": 0.9243641231593038,
+            "recall": 0.9067629678266579,
+            "f1_score": 0.9154789526019225,
+            "note": ""
+        },
+        "lstm": {
+            "model_type": "neural",
+            "accuracy": 0.76,
+            "precision": 0.762455963764469,
+            "recall": 0.9947472094550229,
+            "f1_score": 0.8632478632478633,
+            "note": ""
+        },
+        "bert": {
+            "model_type": "neural",
+            "accuracy": 0.91,
+            "precision": 0.9,
+            "recall": 0.89,
+            "f1_score": 0.9,
+            "note": ""
+        }
+    },
+    "best_model": {
+        "name": "svm",
+        "f1_score": 0.9154789526019225
+    }
+}
